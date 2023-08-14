@@ -11,7 +11,7 @@ import (
 var tpl string
 
 type service struct {
-	EntityObject string // Greeter
+	EntityObject []string // Greeter
 }
 
 func (s *service) execute() string {
