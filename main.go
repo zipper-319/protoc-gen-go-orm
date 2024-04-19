@@ -2,10 +2,10 @@ package main
 
 import (
 	"flag"
+	"github.com/zipper-319/protoc-gen-go-orm/generator"
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/types/pluginpb"
 	"log"
-	"protoc-gen-go-orm/generator"
 )
 
 const version = "v1.0.1"
