@@ -1,4 +1,4 @@
-module protoc-gen-go-orm
+module github.com/protoc-gen-go-orm
 
 go 1.17
 
